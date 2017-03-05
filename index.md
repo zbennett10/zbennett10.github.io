@@ -1,1 +1,1 @@
-# Shorthand
+# Immutable.js
