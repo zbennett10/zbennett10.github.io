@@ -2,7 +2,7 @@
 # Javascript
 ---
 # React
-* Middleware
+#### Middleware base setup
 ```Javascript
 export default function({dispatch}) {
     return next => action => {
@@ -23,7 +23,7 @@ export default function({dispatch}) {
 ```
 ---
 # Mocha/Chai
-* test_helper.js setup
+#### test_helper.js setup
 
 ```Javascript
 import jsdom from 'jsdom';
