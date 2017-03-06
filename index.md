@@ -24,6 +24,7 @@ export default function({dispatch}) {
 ---
 # Mocha/Chai
 * test_helper.js setup
+
 ```Javascript
 import jsdom from 'jsdom';
 import jquery from 'jquery';
@@ -36,7 +37,7 @@ import {createStore} from 'redux';
 import reducers from '../src/reducers';
 import chaiJquery from 'chai-jquery';
 
-///setup testing environment to run like a browser in the command line
+//setup testing environment to run like a browser in the command line
 //fake browser in command line (nodejs env)
 global.document = jsdom.jsdom('<!doctype html><html><body></body></html>');
 global.window = global.document.defaultView;
