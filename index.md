@@ -1,7 +1,7 @@
 
 # Javascript
 ---
-# React
+#React
 * Middleware
 ```Javascript
 export default function({dispatch}) {
@@ -22,7 +22,7 @@ export default function({dispatch}) {
 //almost always use dispatch when creating a new action
 ```
 ---
-# Mocha/Chai
+#Mocha/Chai
 * test_helper.js setup
 
 ```Javascript
