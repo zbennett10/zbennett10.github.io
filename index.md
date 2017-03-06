@@ -1,7 +1,7 @@
 # Javascript
 ---
 # React
-### * Middleware
+* Middleware
 ```Javascript
 export default function({dispatch}) {
     return next => action => {
@@ -17,7 +17,8 @@ export default function({dispatch}) {
 
     }
 }
-//never make an assumption regarding order when writing middleware - almost always use dispatch when creating a new action
+//never make an assumption regarding order when writing middleware
+//almost always use dispatch when creating a new action
 ```
 ---
 
