@@ -1,12 +1,4 @@
----
-Languages | Libraries
---- | ---
-Javascript | React
-Python | Immutable.js
-PowerShell | Redux
-C# | Angular
-SQL | Vis.js
---- 
+
 # Javascript
 ---
 # React
