@@ -21,6 +21,30 @@ export default function({dispatch}) {
 //never make an assumption regarding order when writing middleware
 //almost always use dispatch when creating a new action
 ```
+
+---
+# Redux
+#### Setting up a reducer creating function
+```Javascript
+//example helper function
+function createReducer(initialState, handlers) {
+  return function reducer(state = initialState, action) {
+    if (handlers.hasOwnProperty(action.type)) {
+      return handlers[action.type](state, action)
+    } else {
+      return state
+    }
+  }
+}
+//example use
+export const todos = createReducer([], {
+  [ActionTypes.ADD_TODO](state, action) {
+    let text = action.text.trim()
+    return [ ...state, text ]
+  }
+})
+```
+
 ---
 # Mocha/Chai
 #### test_helper.js setup
