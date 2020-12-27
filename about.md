@@ -4,6 +4,9 @@ title: About
 permalink: /about/
 ---
 
-This is the place where I store quick reference notes concerning language features, library documentation, etc.
+# Passion For People. Passion For Code.
 
-Creep away my friends.
+My name is Zachary Bennett and I am a software engineer, Pluralsight author, and Springboard mentor.
+I love open source and solving geospatial problems using a variety of technologies!
+
+My source code is my art.
