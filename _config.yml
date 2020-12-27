@@ -11,7 +11,7 @@ email: bennett.zachary@outlook.com
 description: > # this means to ignore newlines until "baseurl:"
   Passion for people. Passion for code.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "zachbennett.us" # the base hostname & protocol for your site
+url: "http://zachbennettcodes.com" # the base hostname & protocol for your site
 twitter_username: z_bennett_
 github_username:  zbennett10
 
