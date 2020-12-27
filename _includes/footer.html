@@ -8,7 +8,7 @@
       <div class="footer-col footer-col-1">
         <ul class="contact-list">
           <li><a href="mailto:{{ site.email }}">{{ site.email }}</a></li>
-          <li>{% include icon-linkedin.html username=site.linkedin_username %}</li>
+          <li>{{ site.title }}</li>
         </ul>
       </div>
 
@@ -24,6 +24,10 @@
           <li>
             {% include icon-twitter.html username=site.twitter_username %}
           </li>
+          {% endif %}
+
+          {% if site.twitter_username %}
+          <li>{% include icon-linkedin.html username=site.linkedin_username %}</li>
           {% endif %}
         </ul>
       </div>
