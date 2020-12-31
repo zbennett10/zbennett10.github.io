@@ -3,10 +3,8 @@ layout: post
 title:  "Generating Raster Isolines On a GeoTiff With Web Assembly - Part I"
 date:   2020-12-27 06:22:27 -0600
 categories:
-- GIS
-- Geospatial
-- WASM
-- Algorithms
+- geospatial
+- algorithms
 ---
 
 I've always loved maps and cartography. I remember finding one of my dad's old history textbooks when I was 8 years old. I spent a lot of time poring over the different maps filled with ancient geography. This lust for maps continued into my teenage years as I spent countless hours playing Sid Meier's Civilization III and IV. Fast-forward to today and I've been fortunate to land some great jobs as a software engineer working on different mapping applications. Cesium, Leaflet, OpenLayers, ESRI, GDAL, QGIS - the standard acronyms of GIS programming made their way into my life! I love it all!
