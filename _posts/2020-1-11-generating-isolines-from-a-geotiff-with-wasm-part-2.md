@@ -9,13 +9,13 @@ categories:
 
 I originally had intended on writing blog posts as I went, but this project was too fun to stop and write a blog post about it... 
 
-So instead, I'll walk through the *almost finished* project and I'll update this post at a later date with links to the GitHub repo after I opensource the project's code.
+So instead, I'll walk through the *pretty much finished* project and I'll update this post at a later date with links to the GitHub repo after I opensource the project's code.
 
 ### Setting Up a Web Assembly Project
 
 I came into this project as a complete WASM noob. I am now a hardened veteran... Not really... still a noob, just a... hardened?... noob.
 
-The first thing I did was Google, "How the EFF do I do a WASM thing?" As a part of the corresponding results, I eventually landed on [this guide](https://developer.mozilla.org/en-US/docs/WebAssembly/C_to_wasm) which shows you how to compile a new C/C++ Module to WebAssembly (thank you Mozilla Developer Network).
+The first thing I did was Google, "How the EFF do I do a WASM thing?" As a part of the corresponding results, I eventually landed on [this guide](https://developer.mozilla.org/en-US/docs/WebAssembly/C_to_wasm) which shows you how to compile C/C++ to WebAssembly (thank you Mozilla Developer Network).
 
 These steps essentially had me install the Emscripten SDK and use the `emcc` binary that is provided with the SDK to generate three things based on some C code:
 
