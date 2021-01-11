@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Generating Raster Isolines On a GeoTiff With Web Assembly - Part I"
+title:  "Generating Isolines From a GeoTiff With Web Assembly - Part I"
 date:   2020-12-27 06:22:27 -0600
 categories:
 - geospatial
