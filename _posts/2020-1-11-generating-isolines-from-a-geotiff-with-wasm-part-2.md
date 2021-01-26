@@ -187,6 +187,9 @@ After running this, you get a `.wasm` file and a `.js` file. The WASM file is th
 
 Alright time for some visuals! Don't get me wrong, I love code but part of the beauty of programming in a geospatial context is that you eventually get to see some pretty visuals on a map.
 
+![image](/assets/images/vardah_cyclone_wasm.png)
+
+
 >
 > TO BE CONTINUED...
 >
