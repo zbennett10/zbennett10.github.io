@@ -187,9 +187,35 @@ After running this, you get a `.wasm` file and a `.js` file. The WASM file is th
 
 Alright time for some visuals! Don't get me wrong, I love code but part of the beauty of programming in a geospatial context is that you eventually get to see some pretty visuals on a map.
 
+But first... one more piece of code. With our library successfully imported and our Vardah cyclone data parsed using GeoTIFF.js, I could use the following piece of code to add the generated GeoJSON (pressure isolines) to a Leaflet map!
+
+```javascript
+const pressureIsolines = WasmMarchingSquares.generateIsolines(transformedRasterData, intervals, transform);
+
+isolinesLayer =
+    L.geoJson(
+        JSON.parse(pressureIsolines),
+        {
+            style: {
+                "color": "red",
+                "weight": 2,
+                "opacity": 0.65
+            }
+        }
+    );
+
+isolinesLayer.addTo(map);
+```
+
+That piece of code, produces this beautiful image!
+
 ![image](/assets/images/vardah_cyclone_wasm.png)
 
+Of course, if you want to get fancy with it, you could style each separate isolines according to its associated threshold (in this case a given pressure threshold).
 
->
-> TO BE CONTINUED...
->
+So there you have it! Next, I plan on implementing isoband generation!
+
+If this project has interested you and/or you'd like to contribute to it, please check out the GitHub page [here](https://github.com/zbennett10/wasm-marching-squares). You can also view a full, working example of how to parse a GeoTIFF and get the raw raster data that you need in order to use this library by inspecting the `test` folder of the code base.
+
+
+I hope you enjoyed this post! WebAssembly truly is an awesome technology.
