@@ -192,8 +192,7 @@ But first... one more piece of code. With our library successfully imported and 
 ```javascript
 const pressureIsolines = WasmMarchingSquares.generateIsolines(transformedRasterData, intervals, transform);
 
-isolinesLayer =
-    L.geoJson(
+const isolinesLayer = L.geoJson(
         JSON.parse(pressureIsolines),
         {
             style: {
@@ -211,7 +210,7 @@ That piece of code, produces this beautiful image!
 
 ![image](/assets/images/vardah_cyclone_wasm.png)
 
-Of course, if you want to get fancy with it, you could style each separate isolines according to its associated threshold (in this case a given pressure threshold).
+Of course, if you want to get fancy with it, you could style each separate isoline according to its associated threshold (in this case a given pressure threshold).
 
 So there you have it! Next, I plan on implementing isoband generation!
 
