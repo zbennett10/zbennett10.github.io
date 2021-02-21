@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Becoming a Pluralsight Course Author - My Journey"
-date:   2020-02-20 06:22:27 -0600
+date:   2021-02-20 06:22:27 -0600
 categories:
 - pluralsight
 ---
